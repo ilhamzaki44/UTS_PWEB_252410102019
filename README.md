@@ -1,10 +1,10 @@
-# 🚀 TaskManager 2026 - UTS Pemrograman Web
+# TaskManager 2026 - UTS Pemrograman Web
 
 Aplikasi Web Manajemen Tugas Akademik Mahasiswa berbasis **Laravel (MVC)** dengan tampilan modern dan responsif menggunakan **Tailwind CSS**.
 
 ---
 
-## 📌 Fitur Utama
+## Fitur Utama
 - **Autentikasi Sederhana (Login)**: Form login interaktif dengan pengiriman data *username* secara dinamis.
 - **Dashboard Statistik**: Menampilkan ringkasan total tugas, tugas selesai, dan pending.
 - **Pengelolaan Tugas**: Tabel interaktif daftar tugas akademik menggunakan Blade Directive (`@foreach` & `@if`).
@@ -12,7 +12,7 @@ Aplikasi Web Manajemen Tugas Akademik Mahasiswa berbasis **Laravel (MVC)** denga
 
 ---
 
-## 🛠️ Teknologi & Stack
+## Teknologi & Stack
 - **Framework**: Laravel 11 / 10
 - **Architecture**: Model-View-Controller (MVC)
 - **Templating Engine**: Blade (Layouting, Components, Directives)
@@ -20,7 +20,7 @@ Aplikasi Web Manajemen Tugas Akademik Mahasiswa berbasis **Laravel (MVC)** denga
 
 ---
 
-## 📂 Struktur File Utama (9 Core Files)
+## Struktur File Utama (9 Core Files)
 - `routes/web.php` - Routing aplikasi
 - `app/Http/Controllers/PageController.php` - Pengolah logika & data dinamis
 - `resources/views/layouts/app.blade.php` - Layout utama aplikasi
@@ -30,12 +30,3 @@ Aplikasi Web Manajemen Tugas Akademik Mahasiswa berbasis **Laravel (MVC)** denga
 - `resources/views/dashboard.blade.php` - Halaman dashboard statistik
 - `resources/views/pengelolaan.blade.php` - Halaman pengelolaan tugas
 - `resources/views/profile.blade.php` - Halaman profil mahasiswa
-
----
-
-## 💻 Cara Menjalankan Proyek di Lokal
-
-1. **Clone Repositori**
-   ```bash
-   git clone [https://github.com/USERNAME_KAMU/utspweb.git](https://github.com/USERNAME_KAMU/utspweb.git)
-   cd utspweb
